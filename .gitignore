@@ -1,2 +1,18 @@
-node_modules
-bower_modules
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+RESTClient/node_modules
+RESTClient/bower_components
+RESTServer/node_modules
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
