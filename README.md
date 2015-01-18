@@ -1,6 +1,6 @@
 # REST-Tutorial
 A simple REST server/client using Node.js, Express, Mongoose, and Ember.js
-Tutorial: [http://connorbrewster.me/nodejs-rest-server-emberjs/](http://connorbrewster.me/nodejs-rest-server-emberjs/]
+Tutorial: http://connorbrewster.me/nodejs-rest-server-emberjs/
 ## Installation
 In the RESTClient directory run
 ```
