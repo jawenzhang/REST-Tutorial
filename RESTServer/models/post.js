@@ -4,7 +4,8 @@ var Schema = mongoose.Schema;
 var PostSchema = new Schema({
 	name: String,
 	date: Date,
-	creator: String,
+	author: { type: mongoose.Schema.ObjectId, ref: 'Author' },
+	comments: [{ type: mongoose.Schema.ObjectId, ref: 'Comment' }],
 	content: String
 });
 
